@@ -29,7 +29,7 @@
   border-bottom: 1px solid #18d7cc;
 }
 
-tab-options:active {
+.tab-options:active {
   color: #14b6ad;
 }
 

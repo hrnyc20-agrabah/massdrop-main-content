@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <Header />
-        <div className="carousel"></div>
+        <div id="carousel"></div>
         <Info />
         <Navigation />
         <Overview />

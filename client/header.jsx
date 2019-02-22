@@ -18,7 +18,7 @@ class Header extends React.Component {
           <form className='search-bar'>
             <div className="input-container">
               <input type="text" placeholder="Search..."></input>
-              <i className="fa fa-search icon"></i>
+              <i className="fa fa-search icon search-glass"></i>
             </div>
           </form>
           <div className="notification-container">
