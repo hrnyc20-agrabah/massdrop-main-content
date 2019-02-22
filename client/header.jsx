@@ -25,7 +25,7 @@ class Header extends React.Component {
             <i className="fa fa-bell"></i>
           </div>
           <div className="dropdown-container">
-            <i class="fa fa-ellipsis-v"></i>
+            <i className="fa fa-ellipsis-v"></i>
           </div>
         </div>
         <div className="notification-bell"></div>
