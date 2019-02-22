@@ -1,0 +1,138 @@
+.masslift-header {
+  width: 100%;
+  height: 65px;
+  border: solid 1px #849493;
+  position: sticky;
+}
+
+.header-bar {
+  /* display: flex; */
+  /* flex-direction: row; */
+  max-width: 1300px;
+  padding-top: 1em;
+  padding-bottom: 0.8em;
+  margin: 0 auto;
+  /* align-items: center; */
+}
+
+.masslift-logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-right: 30px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.community-menu, .massdrop-made {
+  text-transform: uppercase;
+  font-size: 12px;
+  /* font-weight: bold; */
+  border: solid 1px #849493;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 0.75px;
+  align-items:center;
+  vertical-align: middle;
+}
+
+.community-menu:hover, .massdrop-made:hover, .notification-container:hover, .dropdown-container:hover {
+  color: #18d7cc;
+  border: solid 1px #18d7cc;
+  cursor: pointer;
+}
+
+.community-menu {
+  margin-right: 4px;
+  padding: 8px 36px 4px 24px;
+}
+
+.massdrop-made {
+  padding: 8px 20px 4px 24px;
+}
+
+.header-left-side {
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-right-side {
+  display: inline-flex;
+  align-items: right;
+  float: right;
+  /* justify-content: flex-end */
+}
+
+.search-bar {
+  /* margin-left: 10em; */
+}
+
+.input-container {
+  display:flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.fa-search {
+  position: absolute;
+  padding-left: 10px;
+}
+
+.notification-container, .dropdown-container {
+  display: flex;
+  border: solid 1px #849493;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.notification-container {
+  margin-right: 15px;
+}
+
+.fa-bell {
+  /* border: solid 1px #849493; */
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 20px;
+}
+
+.fa-ellipsis-v {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 24px;
+}
+
+input {
+  height: 32px;
+  width: 206px;
+  background-color: transparent;
+  border: solid 1px #849493;
+  border-radius: 3px;
+  caret-color: #14b6ad;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 28px;
+}
+
+input:hover {
+  color: #5b6a69;
+  border: solid 1px #18d7cc;
+}
+
+input:focus {
+  box-shadow: none;
+  outline: none;
+  border: solid 1px #14b6ad;  
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;  
+}
+::-moz-placeholder {
+  font-style: italic;  
+}
+:-ms-input-placeholder {  
+  font-style: italic; 
+}
