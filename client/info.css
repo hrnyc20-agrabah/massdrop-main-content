@@ -104,6 +104,11 @@
   margin-left: 500px;
 }
 
+.join-button:hover {
+  background-color: #18d7cc;
+  cursor: pointer;
+}
+
 .join-drop {
   color: white;
   font-size: 18px;

@@ -59,11 +59,6 @@
   display: inline-flex;
   align-items: right;
   float: right;
-  /* justify-content: flex-end */
-}
-
-.search-bar {
-  /* margin-left: 10em; */
 }
 
 .input-container {
