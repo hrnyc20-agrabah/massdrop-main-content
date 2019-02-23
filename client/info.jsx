@@ -20,7 +20,7 @@ class Info extends React.Component {
         </div>
         <div className="product-name-container">
           <div className="product-name">AKG K7XX Stereo Headphones</div>
-          <i className="fa fa-bookmark"></i>
+          <span className="fa fa-bookmark"></span>
           <div className="join-button">
             <div className="join-drop">join drop</div>
           </div>

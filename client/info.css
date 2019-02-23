@@ -44,6 +44,7 @@
   font-weight: bold;
   color: black;
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
 .fa-bookmark {
