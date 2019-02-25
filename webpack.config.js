@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const CompressionPlugin = require('compression-webpack-plugin');
 
 const config = {
   entry: path.join(__dirname, '/client/index.jsx'),
@@ -36,16 +37,18 @@ const config = {
     ]
 
   },
+  
   resolve: {
     extensions: [
       '.js',
       '.jsx'
     ]
   },
-
-  // devServer: {
-  //   contentBase: './dist'
-  // }
+  plugins: [
+    new CompressionPlugin()
+  ]
 }
+
+
 
 module.exports = config;
